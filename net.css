@@ -1,0 +1,45 @@
+.content{
+    text-align: center;
+    
+}
+.form{
+    text-align: center;
+}
+.btn btn-danger{
+    text-align: center;
+    height:auto;
+}
+.pic{
+    background: url(img.png);
+    background-color: rgba(0, 0, 0,0.8);
+    background-blend-mode: multiply;
+    height: 100vh;
+     
+      
+   
+}
+.d-flex align-center{
+    height: 50px;
+}
+.mm d-flex{
+    background-color: black;
+}
+.logoicon{
+
+    position: absolute;
+    
+
+}
+.container1{
+    width: 70;
+}
+
+@media (max-width: 980){
+    .card1,.card2,.card3,.card4{
+        width: 50% !important;
+    } 
+}
+.form-control::placeholder {
+            color: rgb(255, 255, 255);
+            opacity: 1;
+}
